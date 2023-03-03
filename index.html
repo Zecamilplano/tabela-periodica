@@ -1,96 +1,573 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tabela periodica</title>
-</head>
-<body>
-    <div class="wraper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="tabela">
+      <div class="tabela-periodica metal esquerda">
+        <p>1</p>
+        <h1>H</h1>
+      </div>
+   
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
 
-        <div class="tabela-periodica">
-            <div class="periodo hidrogenio nao-metais-diatomicos">
-                &nbsp; <b>H</b> <br>
-                        Hidrogênio <br>
-                        1
-            </div>
+      <div class="tabela-periodica gas-nobre" id="helio">
+        <p>2</p>
+        <h1>He</h1>
+      </div>
 
-            <div class="vazia"></div>
-            <div class="vazia"></div>
-            <div class="vazia"></div>
-            <div class="vazia"></div>
-            <div class="vazia"></div> 
-            <div class="vazia"></div> 
-            <div class="vazia"></div> 
-            <div class="vazia"></div> 
-            
-            
-            <div class="periodo helio gase-nobres">
-                &nbsp; <b>He</b> <br>
-                        Hélio <br>
-                        2
-            </div>
-            
-            <div class="periodo segundo metais-alcalinos">
-                &nbsp; <b>Li </b> <br>
-                Litio  <br>
-                3
-            </div>
-            
-            <div class="periodo segundo metais-alcalinoterrosos">
-                &nbsp; <b>Be </b> <br>
-                Berílio <br>
-                4
-            </div>
-            
-            <div class="vazia"></div>
-            <div class="vazia"></div>
-            <div class="vazia"></div>
-            
-            
-            
-            <div class="periodo segundo-direita semimetais">
-                &nbsp; <b>B </b> <br>
-                Boro  <br>
-                5  
-            </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>3</p>
+        <h1>Li</h1>
+      </div>
 
-            <div class="periodo segundo-direita nao-metais-poliatomicos">
-                &nbsp; <b> C </b> <br>
-                  Carbono<br>
-                6
-            </div>
-            
-            <div class="periodo segundo-direita nao-metais-diatomicos">
-                &nbsp; <b> N</b> <br>
-                Nitrogênio<br>
-                7
-            </div>
-            
-            <div class="periodo segundo-direita nao-metais-diatomicos">
-                &nbsp; <b>O</b> <br>
-                Oxigênio <br>
-                8
-            </div>
-            
-            <div class="periodo segundo-direita nao-metais-diatomicos">
-                &nbsp; <b>F </b> <br>
-                Flúor <br>
-                9
-            </div>
-            
-            <div class="periodo segundo-direita gase-nobres">
-                &nbsp; <b>Ne </b> <br>
-                    Neônio<br> 
-                    10
-            </div>
-            
-        </div>
-        
-        </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>4</p>
+        <h1>Be</h1>
+      </div>
 
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+      <div class="vazia"></div>
+
+      <div class="tabela-periodica semi-metal">
+        <p>5</p>
+        <h1>B</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>6</p>
+        <h1>C</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>7</p>
+        <h1>N</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>8</p>
+        <h1>O</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>9</p>
+        <h1>F</h1>
+      </div>
+      <div class="tabela-periodica gas-nobre">
+        <p>10</p>
+        <h1>Ne</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino">
+        <p>11</p>
+        <h1>Na</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>12</p>
+        <h1>Mg</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>13</p>
+        <h1>Al</h1>
+      </div>
+      <div class="tabela-periodica semi-metal">
+        <p>14</p>
+        <h1>Si</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>15</p>
+        <h1>P</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>16</p>
+        <h1>S</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>17</p>
+        <h1>Cl</h1>
+      </div>
+      <div class="tabela-periodica gas-nobre">
+        <p>18</p>
+        <h1>Ar</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino">
+        <p>19</p>
+        <h1>K</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>20</p>
+        <h1>Ca</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>21</p>
+        <h1>Sc</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>22</p>
+        <h1>Ti</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>23</p>
+        <h1>V</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>24</p>
+        <h1>Cr</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>25</p>
+        <h1>Mn</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>26</p>
+        <h1>Fe</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>27</p>
+        <h1>Co</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>28</p>
+        <h1>Ni</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>29</p>
+        <h1>Cu</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>30</p>
+        <h1>Zn</h1>
+      </div>
+      <div class="tabela-periodica semi-metal">
+        <p>31</p>
+        <h1>Ga</h1>
+      </div>
+      <div class="tabela-periodica semi-metal">
+        <p>32</p>
+        <h1>Ge</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>33</p>
+        <h1>As</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>34</p>
+        <h1>Se</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>35</p>
+        <h1>Br</h1>
+      </div>
+      <div class="tabela-periodica gas-nobre">
+        <p>36</p>
+        <h1>Kr</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino">
+        <p>37</p>
+        <h1>Rb</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>38</p>
+        <h1>Sr</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>39</p>
+        <h1>Y</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>40</p>
+        <h1>Zr</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>41</p>
+        <h1>Nb</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>42</p>
+        <h1>Mo</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>43</p>
+        <h1>Tc</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>44</p>
+        <h1>Ru</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>45</p>
+        <h1>Rh</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>46</p>
+        <h1>Pd</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>47</p>
+        <h1>Ag</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>48</p>
+        <h1>Cd</h1>
+      </div>
+      <div class="tabela-periodica semi-metal">
+        <p>49</p>
+        <h1>In</h1>
+      </div>
+      <div class="tabela-periodica semi-metal">
+        <p>50</p>
+        <h1>Sn</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>51</p>
+        <h1>Sb</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>52</p>
+        <h1>Te</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>53</p>
+        <h1>I</h1>
+      </div>
+      <div class="tabela-periodica gas-nobre">
+        <p>54</p>
+        <h1>Xe</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino">
+        <p>55</p>
+        <h1>Cs</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>56</p>
+        <h1>Ba</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>57</p>
+        <h1>La</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>58</p>
+        <h1>Ce</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>59</p>
+        <h1>Pr</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>60</p>
+        <h1>Nd</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>61</p>
+        <h1>Pm</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>62</p>
+        <h1>Sm</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>63</p>
+        <h1>Eu</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>64</p>
+        <h1>Gd</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>65</p>
+        <h1>Tb</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>66</p>
+        <h1>Dy</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>67</p>
+        <h1>Ho</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>68</p>
+        <h1>Er</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>69</p>
+        <h1>Tm</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>70</p>
+        <h1>Yb</h1>
+      </div>
+      <div class="tabela-periodica metais-transicao">
+        <p>71</p>
+        <h1>Lu</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>72</p>
+        <h1>Hf</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>73</p>
+        <h1>Ta</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>74</p>
+        <h1>W</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>75</p>
+        <h1>Re</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>76</p>
+        <h1>Os</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>77</p>
+        <h1>Ir</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>78</p>
+        <h1>Pt</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>79</p>
+        <h1>Au</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>80</p>
+        <h1>Hg</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>81</p>
+        <h1>Tl</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>82</p>
+        <h1>Pb</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>83</p>
+        <h1>Bi</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>84</p>
+        <h1>Po</h1>
+      </div>
+      <div class="tabela-periodica nao-metal">
+        <p>85</p>
+        <h1>At</h1>
+      </div>
+      <div class="tabela-periodica gas-nobre">
+        <p>86</p>
+        <h1>Rn</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino">
+        <p>87</p>
+        <h1>Fr</h1>
+      </div>
+      <div class="tabela-periodica metal-alcalino-terroso">
+        <p>88</p>
+        <h1>Ra</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>89</p>
+        <h1>Ac</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>90</p>
+        <h1>Th</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>91</p>
+        <h1>Pa</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>92</p>
+        <h1>U</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>93</p>
+        <h1>Np</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>94</p>
+        <h1>Pu</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <h1>95</h1>
+        <p>Am</p>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>96</p>
+        <h1>Cm</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>97</p>
+        <h1>Bk</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>98</p>
+        <h1>Cf</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>99</p>
+        <h1>Es</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>100</p>
+        <h1>Fm</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>101</p>
+        <h1>Md</h1>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <h1>102</h1>
+        <p>No</p>
+      </div>
+      <div class="tabela-periodica metal-transicao">
+        <p>103</p>
+        <h1>Lr</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>57</p>
+        <h1>La</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>58</p>
+        <h1>Ce</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>59</p>
+        <h1>Pr</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>60</p>
+        <h1>Nd</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>61</p>
+        <h1>Pm</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <h1>Sm</h1>
+        <p>62</p>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>63</p>
+        <h1>Eu</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>64</p>
+        <h1>Gd</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>65</p>
+        <h1>Tb</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>66</p>
+        <h1>Dy</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>67</p>
+        <h1>Ho</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>68</p>
+        <h1>Er</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>69</p>
+        <h1>Tm</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>70</p>
+        <h1>Yb</h1>
+      </div>
+      <div class="tabela-periodica lantanideo">
+        <p>71</p>
+        <h1>Lu</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>89</p>
+        <h1>Ac</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>90</p>
+        <h1>Th</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>91</p>
+        <h1>Pa</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>92</p>
+        <h1>U</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>93</p>
+        <h1>Np</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>Pu</p>
+        <h1>94</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>95</p>
+        <h1>Am</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <!-- <p>Cúrio</p> -->
+        <p>96</p>
+        <h1>Cm</h1>
+      </div>
+
+      <div class="tabela-periodica actinideo">
+        <p>97</p>
+        <h1>Bk</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>98</p>
+        <h1>Cf</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>99</p>
+        <h1>Es</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>100</p>
+        <h1>Fm</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>101</p>
+        <h1>Md</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <p>102</p>
+        <h1>No</h1>
+      </div>
+      <div class="tabela-periodica actinideo">
+        <!-- <p>Laurêncio</p> -->
+        <p>103</p>
+        <h1>Lr</h1>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -4,65 +4,31 @@
     box-sizing: border-box;
 }
 
-.wraper{
-    height: 97vh;
-    width: 97vw;
+.tabela{
+    margin: 5px;
+    width: 688px;
 }
 
 .tabela-periodica{
     border: 1px solid black;
-    height: 90vh;
-    width: 90vw;
-    margin: 17px auto;
-}
-
-.metal{
-    background-color: #25F53C;
-}
-.ametal{
-    background-color: #31F5EA;
-}
-.gases-nobre{
-    background-color: #F44435;
-}
-
-.nao-salta{
-    display: inline-block;
-    width: 90px;
-    margin: 5px;
-    padding: 11px;
-    border: 1px solid black;
-}
-.periodo{
-    width: 90px;
-    margin: 5px;
-    padding: 11px;
-    border: 1px solid black;
-    display: inline-block;
+    height: 47px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 7px;
+    margin-top: 5px;
+    float: left;
 }
 .vazia{
+    height: 51px;
+    width: 40px;
     float: left;
-    position: relative;
-    visibility: hidden ;
-    width: 107.5px;
-    height: 78px;
-    margin: 4px;
-    /* background-color: black; */
+    background: blue;
+    margin-left: 7px;
+    margin-top: 1px;
 }
-.hidrogenio{
-    float: left;
+h1{
+    font-size: 16px;
 }
-.helio{
-    margin-left: 28px;
+p{
+    font-size: 12px;
 }
-    /* .primeiro{
-        float: right;
-    } */
-.segundo{
-    float: left;
-}
-
-.segundo-direita{
-    float: left;
-}
-
