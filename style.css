@@ -11,6 +11,7 @@
 
 .tabela-periodica{
     border: 1px solid black;
+    border-radius: 3px;
     height: 47px;
     width: 56px;
     padding: 5px;
@@ -42,3 +43,21 @@ h1{
 p{
     font-size: 12px;
 }
+
+.metais{
+    background-color: #25F53C;
+}
+.ametais{
+    background-color: #31F5EA;
+}
+.gas-nobre{
+    background-color: #ff0000;
+}
+
+/* .metal-alcalino-terroso,
+ .metais-transicao, 
+ .metal-pos-transicao, 
+ .nao-metais-poliatomicos,
+ .nao-metais-diatomicos{
+    background-color: #25F53C;
+ } */
