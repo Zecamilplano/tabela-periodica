@@ -4,12 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./style.css" />  
     <title>Document</title>
   </head>
   <body>
+
+
+    <div class="conteudo">
+      
+      <div class="modal">
+
+        <div class="home">
+              <div class="animate__animated animate__backInDown capa">
+            <img src="./src/logo-cearv.png" alt="logo-cearv">
+            
+            <p>
+              <b>Nome: </b>Ezequiel de Souza Santos <br>
+              <b>Professor:</b> Edelson Rocha <br>
+              <b>Serie:</b> 2º ano <q>A</q>
+            </p>
+
+            <button class="proximo">Proximo</button>
+          </div>
+
+           <div class="sub-capa">
+             <h1>Tabela periódica</h1>
+             <h2><span id="one">Perso</span><span id="two">nali</span><span id="three">zada</span></h2>
+             
+             
+             <div id="perguntas">
+               <h3 id="pergunta" ></h3>
+               <p id="resposta" ></p>
+              </div>
+              <button class="proximo proximo1"> Proximo</button>
+           </div>
+           
+        </div>
+      </div>
+      
+      
+    </div>
     <div class="tabela">
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      
+      <div class="caixa">
+        <h2>Tabela Periódica</h2>
+        <p>A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente correspondente aos números atômicos (número de prótons).</p>
+
+      </div>
+
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo1">
         <p>1</p>
         <h1>H</h1>
       </div>
@@ -31,17 +75,17 @@
       <div class="vazia"></div>
       <div class="vazia"></div> <!--16 caixas-->
 
-      <div class="tabela-periodica gas-nobre" >
+      <div class="tabela-periodica gas-nobre" id="periodo2">
         <p>2</p>
         <h1>He</h1>
       </div>
 
-      <div class="tabela-periodica metal-alcalino-terroso metais">
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo3">
         <p>3</p>
         <h1>Li</h1>
       </div>
 
-      <div class="tabela-periodica metal-alcalino-terroso metais">
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo4">
         <p>4</p>
         <h1>Be</h1>
       </div>
@@ -57,36 +101,36 @@
       <div class="vazia"></div>
       <div class="vazia"></div> <!--5 caixas-->
 
-      <div class="tabela-periodica semi-metal metais">
+      <div class="tabela-periodica semi-metal metais" id="periodo5">
         <p>5</p>
         <h1>B</h1>
       </div>
-      <div class="tabela-periodica nao-metais-poliatomicos ametais">
+      <div class="tabela-periodica nao-metais-poliatomicos ametais" id="periodo6">
         <p>6</p>
         <h1>C</h1>
       </div>
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo7">
         <p>7</p>
         <h1>N</h1>
       </div>
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo8">
         <p>8</p>
         <h1>O</h1>
       </div>
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo9">
         <p>9</p>
         <h1>F</h1>
       </div>
-      <div class="tabela-periodica gas-nobre">
+      <div class="tabela-periodica gas-nobre" id="periodo10">
         <p>10</p>
         <h1>Ne</h1>
       </div>
 
-      <div class="tabela-periodica metal-alcalino metais">
+      <div class="tabela-periodica metal-alcalino metais" id="periodo11">
         <p>11</p>
         <h1>Na</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino-terroso metais" >
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo12">
         <p>12</p>
         <h1>Mg</h1>
       </div>
@@ -102,318 +146,318 @@
       <div class="vazia"></div>
       <div class="vazia"></div>
 
-      <div class="tabela-periodica metais-pos-transicao metais">
+      <div class="tabela-periodica metais-pos-transicao metais" id="periodo13">
         <p>13</p>
         <h1>Ai</h1>
       </div>
-      <div class="tabela-periodica semi-metal metais">
+      <div class="tabela-periodica semi-metal metais" id="periodo14">
         <p>14</p>
         <h1>Si</h1>
       </div>
-      <div class="tabela-periodica nao-metais-poliatomicos ametais">
+      <div class="tabela-periodica nao-metais-poliatomicos ametais" id="periodo15">
         <p>15</p>
         <h1>P</h1>
       </div>
-      <div class="tabela-periodica nao-metais-poliatomicos ametais">
+      <div class="tabela-periodica nao-metais-poliatomicos ametais" id="periodo16">
         <p>16</p>
         <h1>S</h1>
       </div>
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo17">
         <p>17</p>
         <h1>Cl</h1>
       </div>
-      <div class="tabela-periodica gas-nobre">
+      <div class="tabela-periodica gas-nobre" id="periodo18">
         <p>18</p>
         <h1>Ar</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino metais">
+      <div class="tabela-periodica metal-alcalino metais" id="periodo19">
         <p>19</p>
         <h1>K</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino-terroso metais">
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo20">
         <p>20</p>
         <h1>Ca</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo21">
         <p>21</p>
         <h1>Sc</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo22">
         <p>22</p>
         <h1>Ti</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo23">
         <p>23</p>
         <h1>V</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo24">
         <p>24</p>
         <h1>Cr</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo25">
         <p>25</p>
         <h1>Mn</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo26">
         <p>26</p>
         <h1>Fe</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo27">
         <p>27</p>
         <h1>Co</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo28">
         <p>28</p>
         <h1>Ni</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo29">
         <p>29</p>
         <h1>Cu</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo30">
         <p>30</p>
         <h1>Zn</h1>
       </div>
-      <div class="tabela-periodica metais-pos-transicao metais">
+      <div class="tabela-periodica metais-pos-transicao metais" id="periodo31">
         <p>31</p>
         <h1>Ga</h1>
       </div>
-      <div class="tabela-periodica semi-metal metais">
+      <div class="tabela-periodica semi-metal metais" id="periodo32">
         <p>32</p>
         <h1>Ge</h1>
       </div>
-      <div class="tabela-periodica nao-metal metais">
+      <div class="tabela-periodica nao-metal metais" id="periodo33">
         <p>33</p>
         <h1>As</h1>
       </div>
-      <div class="tabela-periodica nao-metais-poliatomicos ametais">
+      <div class="tabela-periodica nao-metais-poliatomicos ametais" id="periodo34">
         <p>34</p>
         <h1>Se</h1>
       </div>
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo35">
         <p>35</p>
         <h1>Br</h1>
       </div>
-      <div class="tabela-periodica gas-nobre">
+      <div class="tabela-periodica gas-nobre" id="periodo36">
         <p>36</p>
         <h1>Kr</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino metais">
+      <div class="tabela-periodica metal-alcalino metais" id="periodo37">
         <p>37</p>
         <h1>Rb</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino-terroso metais">
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo38">
         <p>38</p>
         <h1>Sr</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo39">
         <p>39</p>
         <h1>Y</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo40">
         <p>40</p>
         <h1>Zr</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo41">
         <p>41</p>
         <h1>Nb</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo42">
         <p>42</p>
         <h1>Mo</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo43">
         <p>43</p>
         <h1>Tc</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo44">
         <p>44</p>
         <h1>Ru</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo45">
         <p>45</p>
         <h1>Rh</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo46">
         <p>46</p>
         <h1>Pd</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo47">
         <p>47</p>
         <h1>Ag</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo48">
         <p>48</p>
         <h1>Cd</h1>
       </div>
-      <div class="tabela-periodica metais-pos-transicao metais">
+      <div class="tabela-periodica metais-pos-transicao metais" id="periodo49">
         <p>49</p>
         <h1>In</h1>
       </div>
-      <div class="tabela-periodica metais metais-pos-transicao">
+      <div class="tabela-periodica metais metais-pos-transicao" id="periodo50">
         <p>50</p>
         <h1>Sn</h1>
       </div>
-      <div class="tabela-periodica nao-metal metais">
+      <div class="tabela-periodica nao-metal metais" id="periodo51">
         <p>51</p>
         <h1>Sb</h1>
       </div>
-      <div class="tabela-periodica nao-metal metais">
+      <div class="tabela-periodica nao-metal metais" id="periodo52">
         <p>52</p>
         <h1>Te</h1>
       </div>
-      <div class="tabela-periodica nao-metais-diatomicos ametais">
+      <div class="tabela-periodica nao-metais-diatomicos ametais" id="periodo53">
         <p>53</p>
         <h1>I</h1>
       </div>
-      <div class="tabela-periodica gas-nobre">
+      <div class="tabela-periodica gas-nobre" id="periodo54">
         <p>54</p>
         <h1>Xe</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino metais">
+      <div class="tabela-periodica metal-alcalino metais" id="periodo55">
         <p>55</p>
         <h1>Cs</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino-terroso metais">
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo56">
         <p>56</p>
         <h1>Ba</h1>
       </div>
-      <div class="tabela-periodica metais-transicao metais">
-        <p>57-71</p>
+      <div class="tabela-periodica metais-transicao metais" id="periodo57-71">
+        <p style="font-size: 15px;">57-71</p>
         <h1>La-Lu</h1>
       </div>
       
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo72">
         <p>72</p>
         <h1>Hf</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo73">
         <p>73</p>
         <h1>Ta</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo74">
         <p>74</p>
         <h1>W</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo75">
         <p>75</p>
         <h1>Re</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo76">
         <p>76</p>
         <h1>Os</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo77">
         <p>77</p>
         <h1>Ir</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo78">
         <p>78</p>
         <h1>Pt</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo79">
         <p>79</p>
         <h1>Au</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
+      <div class="tabela-periodica metal-transicao metais" id="periodo80">
         <p>80</p>
         <h1>Hg</h1>
       </div>
-      <div class="tabela-periodica metais-pos-transicao metais">
+      <div class="tabela-periodica metais-pos-transicao metais" id="periodo81">
         <p>81</p>
         <h1>Tl</h1>
       </div>
-      <div class="tabela-periodica metais-pos-transicao metais">
+      <div class="tabela-periodica metais-pos-transicao metais" id="periodo82">
         <p>82</p>
         <h1>Pb</h1>
       </div>
-      <div class="tabela-periodica metais-pos-transicao metais">
+      <div class="tabela-periodica metais-pos-transicao metais" id="periodo83">
         <p>83</p>
         <h1>Bi</h1>
       </div>
-      <div class="tabela-periodica metal-pos-transicao metais">
+      <div class="tabela-periodica metal-pos-transicao metais" id="periodo84">
         <p>84</p>
         <h1>Po</h1>
       </div>
-      <div class="tabela-periodica nao-metal ametais">
+      <div class="tabela-periodica nao-metal ametais" id="periodo85">
         <p>85</p>
         <h1>At</h1>
       </div>
-      <div class="tabela-periodica gas-nobre">
+      <div class="tabela-periodica gas-nobre" id="periodo86">
         <p>86</p>
         <h1>Rn</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino metais">
+      <div class="tabela-periodica metal-alcalino metais" id="periodo87">
         <p>87</p>
         <h1>Fr</h1>
       </div>
-      <div class="tabela-periodica metal-alcalino-terroso metais">
+      <div class="tabela-periodica metal-alcalino-terroso metais" id="periodo88">
         <p>88</p>
         <h1>Ra</h1>
       </div>
-      <div class="tabela-periodica metal-transicao metais">
-        <p>89-103</p>
+      <div class="tabela-periodica metal-transicao metais" id="periodo89-103">
+        <p style="font-size: 14px;">89-103</p>
         <h1>Ac-lr</h1>
       </div>
       
-      <div class="tabela-periodica metais-transicao metais">
+      <div class="tabela-periodica metais-transicao metais" id="periodo104">
         <p>104</p>
         <h1>Rf</h1>
       </div>
-      <div class="tabela-periodica metais-transicao metais">
+      <div class="tabela-periodica metais-transicao metais" id="periodo105">
         <p>105</p>
         <h1>Db</h1>
       </div>
-      <div class="tabela-periodica metais-transicao metais">
+      <div class="tabela-periodica metais-transicao metais" id="periodo106">
         <p>106</p>
         <h1>Sg</h1>
       </div>
-      <div class="tabela-periodica metais-transicao metais">
+      <div class="tabela-periodica metais-transicao metais" id="periodo107">
         <p>107</p>
         <h1>Bh</h1>
       </div>
-      <div class="tabela-periodica metais-transicao metais">
+      <div class="tabela-periodica metais-transicao metais" id="periodo108">
         <p>108</p>
         <h1>Hs</h1>
       </div>
 
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo109">
         <p>109</p>
         <h1>Mt</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo110">
         <p>110</p>
         <h1>ds</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo111">
         <p>111</p>
         <h1>Rg</h1>
       </div>
-      <div class="tabela-periodica metais-transicao metais">
+      <div class="tabela-periodica metais-transicao metais" id="periodo112">
         <p>112</p>
         <h1>Cn</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo113">
         <p>113</p>
         <h1>Nh</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo114">
         <p>114</p>
         <h1>Fl</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo115">
         <p>115</p>
         <h1>Mc</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo116">
         <p>116</p>
         <h1>Lv</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo117">
         <p>117</p>
         <h1>Ts</h1>
       </div>
-      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais">
+      <div class="tabela-periodica propriedades-quimicas-desconhecidas metais" id="periodo118">
         <p>118</p>
         <h1>Og</h1>
       </div>
@@ -569,5 +613,7 @@
         <h1>Lr</h1>
       </div>
     </div>
+
+    <script src="./script.js" type="module"></script>
   </body>
 </html>
