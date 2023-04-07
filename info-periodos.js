@@ -2665,10 +2665,10 @@ export function infoPeriodos() {
           </div>
          `  
       } else if (i === 87) {
-         infoh2.innerHTML = "<span>Fr</span>âncio"
+        infoh2.innerHTML = "<span>Fr</span>âncio"
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo metal-transicao metais">
+            <div class="simbolo metal-alcalino metais">
               <h1>Fr</h1>
               <p>Frâncio</p>
               <p class="diminui-fonte1">
@@ -2702,7 +2702,42 @@ export function infoPeriodos() {
           </div>
           `
       } else if (i === 88) {
-        console.log("oi");
+        infoh2.innerHTML = "Rádio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metal-alcalino-terroso metais">
+              <h1>Ra</h1>
+              <p>Rádio</p>
+              <p class="diminui-fonte1">
+                <span>88</span> &nbsp; [226]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Ra</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>88</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[226]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 7s<sup>2/sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 89) {
         console.log("oi");
       } else if (i === 90) {
@@ -2734,23 +2769,338 @@ export function infoPeriodos() {
       } else if (i === 103) {
         console.log("oi");
       } else if (i === 104) {
-        console.log("oi");
+        infoh2.innerHTML = "Rutherfórdio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metal-transicao metais">
+              <h1>Rf</h1>
+              <p>Rutherfórdio</p>
+              <p class="diminui-fonte1">
+                <span>87</span> &nbsp; 261
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Rf</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>104</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[261]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup><14/sup> 6d 7s<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 105) {
-        console.log("oi");
+        infoh2.innerHTML = "Dúbnio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metal-transicao metais">
+              <h1>Db</h1>
+              <p>Dúbnio</p>
+              <p class="diminui-fonte1">
+                <span>105</span> &nbsp; [262]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Db</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>105</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[262]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>3</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 106) {
-        console.log("oi");
+        infoh2.innerHTML = "Seabórgio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metal-transicao metais">
+              <h1>Sg</h1>
+              <p>Seabórgio</p>
+              <p class="diminui-fonte1">
+                <span>106</span> &nbsp; [266]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Sg</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>106</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[266]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>14</sup> 7s<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 107) {
-        console.log("oi");
+        infoh2.innerHTML = "Bóhrio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metal-transicao metais">
+              <h1>Bh</h1>
+              <p>Bóhrio</p>
+              <p class="diminui-fonte1">
+                <span>107</span> &nbsp; [264]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Bh</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>107</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[264]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>5</sup> 7s<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 108) {
-        console.log("oi");
+       infoh2.innerHTML = "Hássio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Hs</h1>
+              <p>Hássio</p>
+              <p class="diminui-fonte1">
+                <span>108</span> &nbsp; [277]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Hs</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>108</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[277]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>6</sup> 7s<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          ` 
       } else if (i === 109) {
-        console.log("oi");
+        infoh2.innerHTML = "Meitnério"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Mt</h1>
+              <p>Meitnério</p>
+              <p class="diminui-fonte1">
+                <span>109</span> &nbsp; [268]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Mt</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>109</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[268]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>7</sup> 7s<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          ` 
       } else if (i === 110) {
-        console.log("oi");
+        infoh2.innerHTML = "Darmstádio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Ds</h1>
+              <p>Darmstádio</p>
+              <p class="diminui-fonte1">
+                <span>110</span> &nbsp; [271]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Ds</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>110</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[271]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>9</sup> 7s<sup>1</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          ` 
       } else if (i === 111) {
-        console.log("oi");
+      infoh2.innerHTML = "Roentgênio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metais-transicao metais">
+              <h1>Rg</h1>
+              <p>Roentgênio</p>
+              <p class="diminui-fonte1">
+                <span>111</span> &nbsp; [272]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Rg</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>111</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[272]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>1</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          ` 
       } else if (i === 112) {
-        console.log("oi");
+        infoh2.innerHTML = "Copernício"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo metais-transicao metais">
+              <h1>Cn</h1>
+              <p>Copernício</p>
+              <p class="diminui-fonte1">
+                <span>112</span> &nbsp; [277]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Cn</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>112</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[277]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          ` 
       } else if (i === 113) {
         console.log("oi");
       } else if (i === 114) {
