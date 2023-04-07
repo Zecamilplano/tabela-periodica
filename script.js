@@ -86,8 +86,7 @@ const verd = false;
 btnProximo1.addEventListener("click", handle);
 
 //elementos mais detalhado da tabela
-
-import { infoPeriodos } from './info-periodos.js'
+import  {infoPeriodos}  from './info-periodos.js'
 
 infoPeriodos()
 
