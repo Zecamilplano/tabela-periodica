@@ -3102,17 +3102,227 @@ export function infoPeriodos() {
           </div>
           ` 
       } else if (i === 113) {
-        console.log("oi");
+        infoh2.innerHTML = "Nihônio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Nh</h1>
+              <p>Nihônio</p>
+              <p class="diminui-fonte1">
+                <span>113</span> &nbsp; [286]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Nh</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>113</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[286]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup> 7p<sup>1</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 114) {
-        console.log("oi");
+        infoh2.innerHTML = "<span>Fl</span>eróvio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Fl</h1>
+              <p>Fleróvio</p>
+              <p class="diminui-fonte1">
+                <span>114</span> &nbsp; [289]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Fl</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>114</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[289]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup> 7p<sup>2</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          `
       } else if (i === 115) {
-        console.log("oi");
+        infoh2.innerHTML = "Moscóvio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Mc</h1>
+              <p>Moscóvio</p>
+              <p class="diminui-fonte1">
+                <span>115</span> &nbsp; [288]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Mc</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>115</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[288]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup> 7p<sup>3</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+         ` 
       } else if (i === 116) {
-        console.log("oi");
+        infoh2.innerHTML = "Livermório"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Lv</h1>
+              <p>Livermório</p>
+              <p class="diminui-fonte1">
+                <span>115</span> &nbsp; [293]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Lv</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>116</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[293]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup> 7p<sup>4</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+         ` 
       } else if (i === 117) {
-        console.log("oi");
+        infoh2.innerHTML = "Tenessino"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Ts</h1>
+              <p>Tenessino</p>
+              <p class="diminui-fonte1">
+                <span>117</span> &nbsp; [294]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Ts</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>117</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[294]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup> 7p<sup>5</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+         ` 
       } else if (i === 118) {
-        console.log("oi");
+        infoh2.innerHTML = "<span>Og</span>anessônio"
+        infoP.innerHTML = `
+          <div class="box-info ">
+            <div class="simbolo propriedades-quimicas-desconhecidas metais">
+              <h1>Og</h1>
+              <p>Oganessônio</p>
+              <p class="diminui-fonte1">
+                <span>118</span> &nbsp; [294]
+              </p>
+            </div>
+            
+            <div class="box-info2">
+              <table>
+                <tr>
+                  <td>Símbolo</td>
+                  <td>Og</td>
+                </tr>
+  
+                <tr>
+                  <td>Número atômico</td>
+                  <td>118</td>
+                </tr>
+  
+                <tr>
+                  <td>Massa atômica</td>
+                  <td>[294]</td>
+                </tr>
+  
+                <tr>
+                  <td>Configuração eletrônica</td>
+                  <td>[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup> 7p<sup>6</sup></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+         ` 
       } 
     
     });
