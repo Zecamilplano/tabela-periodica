@@ -4331,5 +4331,13 @@ export function infoPeriodos() {
       } 
     
     });
+    
+    
+
+    const caixaInfo = document.querySelector(".caixa")
+    periodos.addEventListener("mouseout", () => {
+      infoh2.innerHTML = "Tabela Periódica"
+      infoP.innerHTML = 'A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente correspondente aos números atômicos (número de prótons). '
+     })
   }
 }
