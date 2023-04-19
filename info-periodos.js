@@ -3416,7 +3416,7 @@ export function infoPeriodos() {
   
                 <tr>
                   <td>Configuração eletrônica</td>
-                  <td>[Rn] 5f<sup>4</sup> 6d<<sup>1</sup> 7s<sup>2</sup></td>
+                  <td>[Rn] 5f<sup>4</sup> 6d<sup>1</sup> 7s<sup>2</sup></td>
                 </tr>
               </table>
             </div>
@@ -3804,7 +3804,7 @@ export function infoPeriodos() {
       
                     <tr>
                       <td>Configuração eletrônica</td>
-                      <td>[Rn] 5f<sup><14/sup> 6d 7s<sup>2</sup></td>
+                      <td>[Rn] 5f<sup>14</sup> 6d 7s<sup>2</sup></td>
                     </tr>
                   </table>
                 </div>
@@ -4337,7 +4337,7 @@ export function infoPeriodos() {
     const caixaInfo = document.querySelector(".caixa")
     periodos.addEventListener("mouseout", () => {
       infoh2.innerHTML = "Tabela Periódica"
-      infoP.innerHTML = 'A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente correspondente aos números atômicos (número de prótons). '
+      infoP.innerHTML = 'A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente correspondente aos números atômicos (número de prótons).'
      })
   }
 }

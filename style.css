@@ -134,7 +134,7 @@ img {
   top: 49px;
 }
 .simbolo{
-  width: 83px;
+  width: 118px;
   height: 100px;
   border-bottom: 1px solid #b9b7b7;
 }
@@ -150,17 +150,23 @@ img {
 
 .diminui-fonte {
   font-size: 16px !important;
+  display: flex;
+  justify-content: space-between;
+   
 }
 .diminui-fonte1 {
   font-size: 14px !important;
+  display: flex;
+  justify-content: space-between;
+   
 }
   
 table{
   position: absolute;
   top: -1px;
-  left: 83px;
+  left: 118px;
   border-collapse: collapse;
-  width: 538px;
+  width: 504px;
   height: 99.8px;
   text-align: center;
   font-size: 15px;
