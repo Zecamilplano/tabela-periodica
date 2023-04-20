@@ -190,7 +190,7 @@ img {
   right: 1px;
   background-color: #f1f1f1;
   border-radius: 30px;
-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .switch--shadow + label:after{
   width: 48px;

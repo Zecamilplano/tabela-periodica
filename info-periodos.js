@@ -3321,7 +3321,7 @@ export function infoPeriodos() {
         infoh2.innerHTML = "Protactínio"
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo   actinideo gas-nobre">
               <h1>Pa</h1>
               <p>Protactínio</p>
               <p class="diminui-fonte1">
@@ -3353,7 +3353,7 @@ export function infoPeriodos() {
           </div>
          ` 
       } else if (i === 92) {
-        nfoh2.innerHTML = "<span>U</span>rânio"
+        infoh2.innerHTML = "<span>U</span>rânio"
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo  lantanideo gas-nobre">

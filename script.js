@@ -92,11 +92,15 @@ infoPeriodos()
 
 const interruptor = document.querySelector("#switch-shadow")
 
-interruptor.addEventListener("change", (e) => {
+// const 
+
+function mudarCor(){
   if(interruptor.checked ){
-    console.log("checado")
-    
+    console.log("checado")      
   } else {
     console.log("não checado")
   }
-})
+}
+
+interruptor.addEventListener("change", mudarCor)
+
