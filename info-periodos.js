@@ -3204,7 +3204,7 @@ export function infoPeriodos() {
   
                 <tr>
                   <td>Configuração eletrônica</td>
-                  <td>[Rn] 7s<sup>1/sup></td>
+                  <td>[Rn] 7s<sup>1</sup></td>
                 </tr>
               </table>
             </div>

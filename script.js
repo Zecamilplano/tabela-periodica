@@ -90,128 +90,13 @@ import  {infoPeriodos}  from './info-periodos.js'
 
 infoPeriodos()
 
-// const infoh2= document.querySelector(".caixa h2")
-// const infoP= document.querySelector(".caixa p")
+const interruptor = document.querySelector("#switch-shadow")
 
-
-// for (let i = 1; i <= 4; i++) {
-//     const periodos = document.getElementById(`periodo${i}`);
-//     periodos.addEventListener('mouseover', () => {
-//       if (i === 1) {
-//         infoh2.innerHTML= `<span>H</span>idrogênio`
-//         infoP.innerHTML= `
-//           <div class="box-info">
-//             <div class="simbolo ametais">
-//               <h1>H</h1>
-//               <p>Hidrogênio</p>
-//               <p>
-//                 <span>1</span> &nbsp; 1.008
-//               </p>
-//             </div>
-            
-//             <div class="box-info2">
-//               <table>
-//                 <tr>
-//                   <td>Símbolo</td>
-//                   <td>H</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Número atômico</td>
-//                   <td>1</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Massa atômica</td>
-//                   <td>1.008</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Configuração eletrônica</td>
-//                   <td>1s<sup>1</sup></td>
-//                 </tr>
-//               </table>
-//             </div>
-//           </div>
-//         `
+interruptor.addEventListener("change", (e) => {
+  if(interruptor.checked ){
+    console.log("checado")
     
-//       } else if (i === 2) {
-//         infoh2.innerHTML= `<span>H</span>élio`
-//         infoP.innerHTML= `
-//           <div class="box-info">
-//             <div class="simbolo">
-//               <h1>He</h1>
-//               <p>Hélio</p>
-//               <p>
-//                 <span>2</span> &nbsp; 4.003
-//               </p>
-//             </div>
-            
-//             <div class="box-info2">
-//               <table>
-//                 <tr>
-//                   <td>Símbolo</td>
-//                   <td>He</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Número atômico</td>
-//                   <td>2</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Massa atômica</td>
-//                   <td>4.003</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Configuração eletrônica</td>
-//                   <td>1s<sup>2</sup></td>
-//                 </tr>
-//               </table>
-//             </div>
-//           </div>
-//         `
-//       } else if (i === 3) {
-//         infoh2.innerHTML= `<span>L</span>ítio`
-//         infoP.innerHTML= `
-//           <div class="box-info">
-//             <div class="simbolo metais">
-//               <h1>Li</h1>
-//               <p>Lítio</p>
-//               <p>
-//                 <span>3</span> &nbsp; 6.941
-//               </p>
-//             </div>
-            
-//             <div class="box-info2">
-//               <table>
-//                 <tr>
-//                   <td>Símbolo</td>
-//                   <td>Li</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Número atômico</td>
-//                   <td>3</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Massa atômica</td>
-//                   <td>6.941</td>
-//                 </tr>
-  
-//                 <tr>
-//                   <td>Configuração eletrônica</td>
-//                   <td>1s<sup>2</sup>2s<sup>1</sup></td>
-//                 </tr>
-//               </table>
-//             </div>
-//           </div>
-//           `
-//         } else if (i === 4) {
-//              console.log("oi")
-//          } 
-
-//     })
-//   }
+  } else {
+    console.log("não checado")
+  }
+})
