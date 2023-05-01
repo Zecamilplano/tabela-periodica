@@ -46,7 +46,7 @@ export function infoPeriodos() {
         infoh2.innerHTML = `<span>H</span>élio`;
         infoP.innerHTML = `
           <div class="box-info">
-            <div class="simbolo gas-nobre">
+            <div class="simbolo gas-nobre1">
               <h1>He</h1>
               <p>Hélio</p>
               <p>
@@ -83,7 +83,7 @@ export function infoPeriodos() {
         infoh2.innerHTML = `<span>Lí</span>ítio`;
         infoP.innerHTML = `
           <div class="box-info">
-            <div class="simbolo metal-alcalino-terroso metais">
+            <div class="simbolo metal-alcalino metais">
               <h1>Li</h1>
               <p>Lítio</p>
               <p>
@@ -115,7 +115,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 4) {
         infoh2.innerHTML = `<span>Be</span>rílio`;
         infoP.innerHTML = `
@@ -152,7 +152,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 5) {
         infoh2.innerHTML = `<span>B</span>oro`;
         infoP.innerHTML = `
@@ -189,7 +189,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 6) {
         infoh2.innerHTML = `<span>C</span>arbono`;
         infoP.innerHTML = `
@@ -226,7 +226,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 7) {
         infoh2.innerHTML = `<span>N</span>itrogênio`;
         infoP.innerHTML = `
@@ -263,7 +263,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 8) {
         infoh2.innerHTML = `<span>O</span>xigênio`;
         infoP.innerHTML = `
@@ -300,7 +300,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 9) {
         infoh2.innerHTML = `<span>F</span>úor`;
         infoP.innerHTML = `
@@ -337,12 +337,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 10) {
         infoh2.innerHTML = `<span>Ne</span>ônio`;
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo gas-nobre">
+            <div class="simbolo gas-nobre1">
               <h1>Ne</h1>
               <p>Neônio</p>
               <p class="diminui-fonte">
@@ -374,7 +374,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 11) {
         infoh2.innerHTML = `Sódio`;
         infoP.innerHTML = `
@@ -411,9 +411,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 12) {
-        infoh2.innerHTML = "Magnésio"
+        infoh2.innerHTML = "Magnésio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-acalino-terrosso metais">
@@ -448,7 +448,7 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 13) {
         infoh2.innerHTML = `<span>Al</span>umínio`;
         infoP.innerHTML = `
@@ -485,11 +485,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 14) {
-        
-        
-        infoh2.innerHTML = "<span>Si</span>lício"
+        infoh2.innerHTML = "<span>Si</span>lício";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo semi-metal metais">
@@ -524,9 +522,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 15) {
-        infoh2.innerHTML = "Fósforo"
+        infoh2.innerHTML = "Fósforo";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-acalino-terrosso metais">
@@ -561,9 +559,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 16) {
-        infoh2.innerHTML = "Enxofre"
+        infoh2.innerHTML = "Enxofre";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo nao-metais-poliatomicos metais">
@@ -598,9 +596,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 17) {
-        infoh2.innerHTML = "<span>Cl</span>oro"
+        infoh2.innerHTML = "<span>Cl</span>oro";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo nao-metais-diatomicos ametais">
@@ -635,9 +633,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 18) {
-        infoh2.innerHTML = "<span>Ar</span>gônio"
+        infoh2.innerHTML = "<span>Ar</span>gônio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo gas-nobre">
@@ -672,9 +670,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 19) {
-        infoh2.innerHTML = "K"
+        infoh2.innerHTML = "K";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino metais">
@@ -709,9 +707,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 20) {
-        infoh2.innerHTML = "Cálcio"
+        infoh2.innerHTML = "Cálcio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino-terroso metais">
@@ -746,9 +744,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 21) {
-        infoh2.innerHTML = "Escândio"
+        infoh2.innerHTML = "Escândio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -783,9 +781,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 22) {
-        infoh2.innerHTML = "<span>Ti</span>tânio"
+        infoh2.innerHTML = "<span>Ti</span>tânio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -820,9 +818,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 23) {
-        infoh2.innerHTML = "Vanádio"
+        infoh2.innerHTML = "Vanádio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -857,9 +855,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 24) {
-        infoh2.innerHTML = "<span>Cr</span>omo"
+        infoh2.innerHTML = "<span>Cr</span>omo";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -894,9 +892,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 25) {
-        infoh2.innerHTML = "Manganês"
+        infoh2.innerHTML = "Manganês";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -931,9 +929,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 26) {
-        infoh2.innerHTML = "<span>Fe</span>rro"
+        infoh2.innerHTML = "<span>Fe</span>rro";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -968,9 +966,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 27) {
-        infoh2.innerHTML = "<span>Co</span>balto"
+        infoh2.innerHTML = "<span>Co</span>balto";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1005,9 +1003,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 28) {
-        infoh2.innerHTML = "Niquel"
+        infoh2.innerHTML = "Niquel";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1042,9 +1040,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 29) {
-        infoh2.innerHTML = "Cobre"
+        infoh2.innerHTML = "Cobre";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1079,9 +1077,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 30) {
-        infoh2.innerHTML = "Zinco"
+        infoh2.innerHTML = "Zinco";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1116,9 +1114,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 31) {
-        infoh2.innerHTML = "Galio"
+        infoh2.innerHTML = "Galio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-pos-transicao metais">
@@ -1153,9 +1151,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 32) {
-        infoh2.innerHTML = "<span>Ge</span>rmânio"
+        infoh2.innerHTML = "<span>Ge</span>rmânio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo semi-metal metais">
@@ -1190,12 +1188,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 33) {
-        infoh2.innerHTML = "Arsênio"
+        infoh2.innerHTML = "Arsênio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo nao-metal metais">
+            <div class="simbolo semi-metal metais">
               <h1>As</h1>
               <p>Arsênio</p>
               <p class="diminui-fonte1">
@@ -1227,9 +1225,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 34) {
-        infoh2.innerHTML = "<span>Se</span>lênio"
+        infoh2.innerHTML = "<span>Se</span>lênio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo nao-metais-poliatomicos ametais">
@@ -1264,9 +1262,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 35) {
-        infoh2.innerHTML = "<span>Br</span>omo"
+        infoh2.innerHTML = "<span>Br</span>omo";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo nao-metais-diatomicos ametais">
@@ -1301,12 +1299,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 36) {
-        infoh2.innerHTML = "Criptônio"
+        infoh2.innerHTML = "Criptônio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo gas-nobre">
+            <div class="simbolo gas-nobre1">
               <h1>Kr</h1>
               <p>Criptônio</p>
               <p class="diminui-fonte1">
@@ -1338,9 +1336,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 37) {
-        infoh2.innerHTML = "Rubídio"
+        infoh2.innerHTML = "Rubídio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino metais">
@@ -1375,9 +1373,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 38) {
-        infoh2.innerHTML = "Estrôncio"
+        infoh2.innerHTML = "Estrôncio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino-terrosso metais">
@@ -1412,9 +1410,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 39) {
-        infoh2.innerHTML = "Ítrio"
+        infoh2.innerHTML = "Ítrio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1449,9 +1447,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 40) {
-        infoh2.innerHTML = "Zircônio"
+        infoh2.innerHTML = "Zircônio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1486,9 +1484,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 41) {
-        infoh2.innerHTML = "Nióbio"
+        infoh2.innerHTML = "Nióbio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1523,9 +1521,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 42) {
-        infoh2.innerHTML = "Molibdênio"
+        infoh2.innerHTML = "Molibdênio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1560,9 +1558,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 43) {
-        infoh2.innerHTML = "Tecnécio"
+        infoh2.innerHTML = "Tecnécio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1597,9 +1595,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 44) {
-        infoh2.innerHTML = "<span>Ru</span>tênio"
+        infoh2.innerHTML = "<span>Ru</span>tênio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1634,9 +1632,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 45) {
-        infoh2.innerHTML = "Ródio"
+        infoh2.innerHTML = "Ródio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1671,9 +1669,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 46) {
-        infoh2.innerHTML = "Paládio"
+        infoh2.innerHTML = "Paládio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1708,9 +1706,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 47) {
-        infoh2.innerHTML = "Prata"
+        infoh2.innerHTML = "Prata";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1745,9 +1743,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 48) {
-        infoh2.innerHTML = "Cádmio"
+        infoh2.innerHTML = "Cádmio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -1782,9 +1780,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 49) {
-        infoh2.innerHTML = "Índio"
+        infoh2.innerHTML = "Índio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-pos-transicao metais">
@@ -1819,9 +1817,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 50) {
-        infoh2.innerHTML = "Estanho"
+        infoh2.innerHTML = "Estanho";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-pos-transicao metais">
@@ -1856,12 +1854,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 51) {
-        infoh2.innerHTML = "Antimônio"
+        infoh2.innerHTML = "Antimônio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo nao-metal metais">
+            <div class="simbolo semi-metal metais">
               <h1>Sb</h1>
               <p>Antimônio</p>
               <p class="diminui-fonte1">
@@ -1893,12 +1891,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 52) {
-        infoh2.innerHTML = "<span>Te</span>lúrio"
+        infoh2.innerHTML = "<span>Te</span>lúrio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo nao-metal metais">
+            <div class="simbolo semi-metal metais">
               <h1>Te</h1>
               <p>Telúrio</p>
               <p class="diminui-fonte1">
@@ -1930,9 +1928,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 53) {
-        infoh2.innerHTML = "Iodo"
+        infoh2.innerHTML = "Iodo";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo nao-metais-diatomicos ametais">
@@ -1967,12 +1965,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 54) {
-        infoh2.innerHTML = "<span>Xe</span>nônio"
+        infoh2.innerHTML = "<span>Xe</span>nônio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo gas-nobre">
+            <div class="simbolo gas-nobre1">
               <h1>Xe</h1>
               <p>Xenônio</p>
               <p class="diminui-fonte1">
@@ -2004,9 +2002,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 55) {
-        infoh2.innerHTML = "Césio"
+        infoh2.innerHTML = "Césio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino  metais">
@@ -2041,9 +2039,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 56) {
-        infoh2.innerHTML = "Bário"
+        infoh2.innerHTML = "Bário";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino-terroso metais">
@@ -2078,12 +2076,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 57) {
-       infoh2.innerHTML = "<span>La</span>ntânio"
+        infoh2.innerHTML = "<span>La</span>ntânio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>La</h1>
               <p>Lantânio</p>
               <p class="diminui-fonte1">
@@ -2115,12 +2113,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 58) {
-        infoh2.innerHTML = "Cério"
+        infoh2.innerHTML = "Cério";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Ce</h1>
               <p>Cério</p>
               <p class="diminui-fonte1">
@@ -2152,12 +2150,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 59) {
-         infoh2.innerHTML = "<span>Pr</span>aseodímio"
+        infoh2.innerHTML = "<span>Pr</span>aseodímio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Pr</h1>
               <p>Praseodímio</p>
               <p class="diminui-fonte1">
@@ -2188,12 +2186,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 60) {
-        infoh2.innerHTML = "Neodímio"
+        infoh2.innerHTML = "Neodímio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Nd</h1>
               <p>Neodímio</p>
               <p class="diminui-fonte1">
@@ -2224,12 +2222,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 61) {
-        infoh2.innerHTML = "Promécio"
+        infoh2.innerHTML = "Promécio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Pm</h1>
               <p>Promécio</p>
               <p class="diminui-fonte1">
@@ -2260,12 +2258,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 62) {
-        infoh2.innerHTML = "Samário"
+        infoh2.innerHTML = "Samário";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Sm</h1>
               <p>Samário</p>
               <p class="diminui-fonte1">
@@ -2296,12 +2294,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 63) {
-         infoh2.innerHTML = "<span>Eu</span>rópio"
+        infoh2.innerHTML = "<span>Eu</span>rópio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Eu</h1>
               <p>Európio</p>
               <p class="diminui-fonte1">
@@ -2332,12 +2330,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 64) {
-         infoh2.innerHTML = "Gadolílinio"
+        infoh2.innerHTML = "Gadolílinio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Gd</h1>
               <p>Gadolínio</p>
               <p class="diminui-fonte1">
@@ -2368,12 +2366,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 65) {
-         infoh2.innerHTML = "Térbio"
+        infoh2.innerHTML = "Térbio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Tb</h1>
               <p>Térbio</p>
               <p class="diminui-fonte1">
@@ -2404,12 +2402,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 66) {
-         infoh2.innerHTML = "Disprósio"
+        infoh2.innerHTML = "Disprósio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Dy</h1>
               <p>Disprósio</p>
               <p class="diminui-fonte1">
@@ -2440,12 +2438,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 67) {
-         infoh2.innerHTML = "Hólmio"
+        infoh2.innerHTML = "Hólmio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Ho</h1>
               <p>Hólmio</p>
               <p class="diminui-fonte1">
@@ -2476,12 +2474,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 68) {
-         infoh2.innerHTML = "<span>Ér</span>rnio"
+        infoh2.innerHTML = "<span>Ér</span>rnio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Er</h1>
               <p>Erbio</p>
               <p class="diminui-fonte1">
@@ -2512,12 +2510,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 69) {
-         infoh2.innerHTML = "Túlio"
+        infoh2.innerHTML = "Túlio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Tm</h1>
               <p>Túlio</p>
               <p class="diminui-fonte1">
@@ -2547,12 +2545,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 70) {
-        infoh2.innerHTML = "Itérbio"
+        infoh2.innerHTML = "Itérbio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Yb</h1>
               <p>Itérbio</p>
               <p class="diminui-fonte1">
@@ -2582,12 +2580,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 71) {
-         infoh2.innerHTML = "<span>Lu</span>técio"
+        infoh2.innerHTML = "<span>Lu</span>técio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Lu</h1>
               <p>Lutécio</p>
               <p class="diminui-fonte1">
@@ -2617,9 +2615,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         `  
+         `;
       } else if (i === 72) {
-        infoh2.innerHTML = "Háfnio"
+        infoh2.innerHTML = "Háfnio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2654,9 +2652,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 73) {
-         infoh2.innerHTML = "Tântalo"
+        infoh2.innerHTML = "Tântalo";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2690,10 +2688,9 @@ export function infoPeriodos() {
                 </tr>
               </table>
             </div>
-          </div>`
-          
+          </div>`;
       } else if (i === 74) {
-        infoh2.innerHTML = "Tungstênio"
+        infoh2.innerHTML = "Tungstênio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2728,9 +2725,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 75) {
-        infoh2.innerHTML = "Rênio"
+        infoh2.innerHTML = "Rênio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2765,9 +2762,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 76) {
-        infoh2.innerHTML = "Ósmio"
+        infoh2.innerHTML = "Ósmio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2802,9 +2799,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 77) {
-        infoh2.innerHTML = "<span>Ir</span>ídio"
+        infoh2.innerHTML = "<span>Ir</span>ídio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2839,9 +2836,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 78) {
-        infoh2.innerHTML = "Platina"
+        infoh2.innerHTML = "Platina";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2876,9 +2873,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 79) {
-        infoh2.innerHTML = "Ouro"
+        infoh2.innerHTML = "Ouro";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2913,9 +2910,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 80) {
-        infoh2.innerHTML = "Mercurio"
+        infoh2.innerHTML = "Mercurio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-transicao metais">
@@ -2950,9 +2947,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 81) {
-        infoh2.innerHTML = "Tálio"
+        infoh2.innerHTML = "Tálio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-pos-transicao metais">
@@ -2987,9 +2984,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 82) {
-        infoh2.innerHTML = "Chumbo"
+        infoh2.innerHTML = "Chumbo";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-pos-transicao metais">
@@ -3024,9 +3021,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 83) {
-        infoh2.innerHTML = "Bismuto"
+        infoh2.innerHTML = "Bismuto";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-pos-transicao metais">
@@ -3061,9 +3058,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         `  
+         `;
       } else if (i === 84) {
-        infoh2.innerHTML = "<span>Po</span>lônio"
+        infoh2.innerHTML = "<span>Po</span>lônio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-pos-transicao metais">
@@ -3098,9 +3095,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 85) {
-        infoh2.innerHTML = "Ástato"
+        infoh2.innerHTML = "Ástato";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo nao-metal ametais">
@@ -3135,9 +3132,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 86) {
-        infoh2.innerHTML = "Radônio"
+        infoh2.innerHTML = "Radônio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo gas-nobre">
@@ -3172,9 +3169,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         `  
+         `;
       } else if (i === 87) {
-        infoh2.innerHTML = "<span>Fr</span>âncio"
+        infoh2.innerHTML = "<span>Fr</span>âncio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino metais">
@@ -3209,9 +3206,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 88) {
-        infoh2.innerHTML = "Rádio"
+        infoh2.innerHTML = "Rádio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metal-alcalino-terroso metais">
@@ -3246,12 +3243,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 89) {
-        infoh2.innerHTML = "<span>Ac</span>tínio"
+        infoh2.innerHTML = "<span>Ac</span>tínio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  actinideo gas-nobre">
+            <div class="simbolo  actinideo gas-nobre1">
               <h1>Ac</h1>
               <p>Actínio</p>
               <p class="diminui-fonte1">
@@ -3281,14 +3278,14 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 90) {
-        infoh2.innerHTML = "Tório"
+        infoh2.innerHTML = "Tório";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  actinideo gas-nobre">
-              <h1>Ac</h1>
-              <p>Actínio</p>
+            <div class="simbolo  actinideo gas-nobre1">
+              <h1>Th</h1>
+              <p>Tório</p>
               <p class="diminui-fonte1">
                 <span>90</span> &nbsp; 232.03806
               </p>
@@ -3316,12 +3313,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 91) {
-        infoh2.innerHTML = "Protactínio"
+        infoh2.innerHTML = "Protactínio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo   actinideo gas-nobre">
+            <div class="simbolo   actinideo gas-nobre1">
               <h1>Pa</h1>
               <p>Protactínio</p>
               <p class="diminui-fonte1">
@@ -3351,12 +3348,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 92) {
-        infoh2.innerHTML = "<span>U</span>rânio"
+        infoh2.innerHTML = "<span>U</span>rânio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>U</h1>
               <p>Urânio</p>
               <p class="diminui-fonte1">
@@ -3386,12 +3383,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 93) {
-        infoh2.innerHTML = "Netúnio"
+        infoh2.innerHTML = "Netúnio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Np</h1>
               <p>Netúnio</p>
               <p class="diminui-fonte1">
@@ -3421,12 +3418,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 94) {
-        infoh2.innerHTML = "Plutônio"
+        infoh2.innerHTML = "Plutônio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Pu</h1>
               <p>Plutônio</p>
               <p class="diminui-fonte1">
@@ -3456,12 +3453,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 95) {
-         infoh2.innerHTML = "Amerício"
+        infoh2.innerHTML = "Amerício";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Am</h1>
               <p>Américio</p>
               <p class="diminui-fonte1">
@@ -3491,12 +3488,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 96) {
-        infoh2.innerHTML = "<span>Am</span>erício"
+        infoh2.innerHTML = "<span>Am</span>erício";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Am</h1>
               <p>Amerício</p>
               <p class="diminui-fonte1">
@@ -3526,12 +3523,12 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 97) {
-        infoh2.innerHTML = "Berquélio"
+        infoh2.innerHTML = "Berquélio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Bk</h1>
               <p>Berquélio</p>
               <p class="diminui-fonte1">
@@ -3561,12 +3558,12 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            ` 
-          } else if (i === 98) {
-            infoh2.innerHTML = "Californio"
+            `;
+      } else if (i === 98) {
+        infoh2.innerHTML = "Californio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Cf</h1>
               <p>Californio</p>
               <p class="diminui-fonte1">
@@ -3596,12 +3593,12 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            ` 
-          } else if (i === 99) {
-            infoh2.innerHTML = "Eisténio"
+            `;
+      } else if (i === 99) {
+        infoh2.innerHTML = "Eisténio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Es</h1>
               <p>Eisténio</p>
               <p class="diminui-fonte1">
@@ -3631,12 +3628,12 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            `  
-          } else if (i === 100) {
-            infoh2.innerHTML = "Férmio"
+            `;
+      } else if (i === 100) {
+        infoh2.innerHTML = "Férmio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Fm</h1>
               <p>Férmio</p>
               <p class="diminui-fonte1">
@@ -3666,12 +3663,12 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            `  
-          } else if (i === 101) {
-            infoh2.innerHTML = "Mendelévio"
+            `;
+      } else if (i === 101) {
+        infoh2.innerHTML = "Mendelévio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Md</h1>
               <p>Mendelévio</p>
               <p class="diminui-fonte1">
@@ -3701,12 +3698,12 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            `  
-          } else if (i === 102) {
-            infoh2.innerHTML = "<span>No</span>bélio"
+            `;
+      } else if (i === 102) {
+        infoh2.innerHTML = "<span>No</span>bélio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>No</h1>
               <p>Nobélio</p>
               <p class="diminui-fonte1">
@@ -3736,12 +3733,12 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            `  
-          } else if (i === 103) {
-            infoh2.innerHTML = "Laurêncio"
+            `;
+      } else if (i === 103) {
+        infoh2.innerHTML = "Laurêncio";
         infoP.innerHTML = `
           <div class="box-info ">
-            <div class="simbolo  lantanideo gas-nobre">
+            <div class="simbolo  lantanideo gas-nobre1">
               <h1>Lr</h1>
               <p>Laurêncio</p>
               <p class="diminui-fonte1">
@@ -3771,11 +3768,10 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-            `  
-            
-          } else if (i === 104) {
-            infoh2.innerHTML = "Rutherfórdio"
-            infoP.innerHTML = `
+            `;
+      } else if (i === 104) {
+        infoh2.innerHTML = "Rutherfórdio";
+        infoP.innerHTML = `
               <div class="box-info ">
                 <div class="simbolo metal-transicao metais">
                   <h1>Rf</h1>
@@ -3809,10 +3805,10 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-              `
-          } else if (i === 105) {
-            infoh2.innerHTML = "Dúbnio"
-            infoP.innerHTML = `
+              `;
+      } else if (i === 105) {
+        infoh2.innerHTML = "Dúbnio";
+        infoP.innerHTML = `
               <div class="box-info ">
                 <div class="simbolo metal-transicao metais">
                   <h1>Db</h1>
@@ -3846,10 +3842,10 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-              `
-          } else if (i === 106) {
-            infoh2.innerHTML = "Seabórgio"
-            infoP.innerHTML = `
+              `;
+      } else if (i === 106) {
+        infoh2.innerHTML = "Seabórgio";
+        infoP.innerHTML = `
               <div class="box-info ">
                 <div class="simbolo metal-transicao metais">
                   <h1>Sg</h1>
@@ -3883,10 +3879,10 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-              `
-          } else if (i === 107) {
-            infoh2.innerHTML = "Bóhrio"
-            infoP.innerHTML = `
+              `;
+      } else if (i === 107) {
+        infoh2.innerHTML = "Bóhrio";
+        infoP.innerHTML = `
               <div class="box-info ">
                 <div class="simbolo metal-transicao metais">
                   <h1>Bh</h1>
@@ -3920,10 +3916,10 @@ export function infoPeriodos() {
                   </table>
                 </div>
               </div>
-              `
-          } else if (i === 108) {
-          infoh2.innerHTML = "Hássio"
-            infoP.innerHTML = `
+              `;
+      } else if (i === 108) {
+        infoh2.innerHTML = "Hássio";
+        infoP.innerHTML = `
               <div class="box-info ">
                 <div class="simbolo propriedades-quimicas-desconhecidas metais">
                   <h1>Hs</h1>
@@ -3957,9 +3953,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          ` 
+          `;
       } else if (i === 109) {
-        infoh2.innerHTML = "Meitnério"
+        infoh2.innerHTML = "Meitnério";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -3994,9 +3990,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          ` 
+          `;
       } else if (i === 110) {
-        infoh2.innerHTML = "Darmstádio"
+        infoh2.innerHTML = "Darmstádio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4031,9 +4027,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          ` 
+          `;
       } else if (i === 111) {
-      infoh2.innerHTML = "Roentgênio"
+        infoh2.innerHTML = "Roentgênio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-transicao metais">
@@ -4068,9 +4064,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          ` 
+          `;
       } else if (i === 112) {
-        infoh2.innerHTML = "Copernício"
+        infoh2.innerHTML = "Copernício";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo metais-transicao metais">
@@ -4105,9 +4101,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          ` 
+          `;
       } else if (i === 113) {
-        infoh2.innerHTML = "Nihônio"
+        infoh2.innerHTML = "Nihônio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4142,9 +4138,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 114) {
-        infoh2.innerHTML = "<span>Fl</span>eróvio"
+        infoh2.innerHTML = "<span>Fl</span>eróvio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4179,9 +4175,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-          `
+          `;
       } else if (i === 115) {
-        infoh2.innerHTML = "Moscóvio"
+        infoh2.innerHTML = "Moscóvio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4216,9 +4212,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 116) {
-        infoh2.innerHTML = "Livermório"
+        infoh2.innerHTML = "Livermório";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4253,9 +4249,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 117) {
-        infoh2.innerHTML = "Tenessino"
+        infoh2.innerHTML = "Tenessino";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4290,9 +4286,9 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
+         `;
       } else if (i === 118) {
-        infoh2.innerHTML = "<span>Og</span>anessônio"
+        infoh2.innerHTML = "<span>Og</span>anessônio";
         infoP.innerHTML = `
           <div class="box-info ">
             <div class="simbolo propriedades-quimicas-desconhecidas metais">
@@ -4327,17 +4323,15 @@ export function infoPeriodos() {
               </table>
             </div>
           </div>
-         ` 
-      } 
-    
+         `;
+      }
     });
-    
-    
 
-    const caixaInfo = document.querySelector(".caixa")
+    const caixaInfo = document.querySelector(".caixa");
     periodos.addEventListener("mouseout", () => {
-      infoh2.innerHTML = "Tabela Periódica"
-      infoP.innerHTML = 'A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente correspondente aos números atômicos (número de prótons).'
-     })
+      infoh2.innerHTML = "Tabela Periódica";
+      infoP.innerHTML =
+        "A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente correspondente aos números atômicos (número de prótons).";
+    });
   }
 }

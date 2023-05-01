@@ -89,18 +89,104 @@ btnProximo1.addEventListener("click", handle);
 import  {infoPeriodos}  from './info-periodos.js'
 
 infoPeriodos()
+// console.log(infoPeriodos)
+
+const metais = document.querySelector(".metais")
+const ametais = document.querySelector(".ametais")
+const gasNobre = document.querySelector(".gas-nobre")
+const metalAlcalino = document.querySelector(".metal-alcalino")
+const metalAlcalinoTerroso = document.querySelector(".metal-alcalino-terroso")
+const metaisTransicao = document.querySelector(".metais-transicao")
+const metaisPosTransicao = document.querySelector(".metais-pos-transicao")
+const semiMetal = document.querySelector(".semi-metal")
+const naoMetaisPoliatomicos = document.querySelector(".nao-metais-poliatomicos")
+const naoMetaisDiatomico = document.querySelector(".nao-metais-diatomicos")
+const propriedadesQuimicasDesconhecidas = document.querySelector(".propriedades-quimicas-desconhecidas")
+const lantanideo = document.querySelector(".lantanideo")
+const actinideo = document.querySelector(".actinideo")
 
 const interruptor = document.querySelector("#switch-shadow")
 
-// const 
+const _periodos = document.querySelectorAll(".tabela-periodica")
 
+function checkClass() {
+_periodos.forEach((periodoAtual) => {
+ const listaDasClasses = periodoAtual.classList
+ 
+ listaDasClasses.forEach((classeAtual) => {
+  if(classeAtual === 'metal-alcalino') {
+    periodoAtual.style.backgroundColor = '#db1616';
+  } else if (classeAtual === 'metal-alcalino-terroso') {
+    periodoAtual.style.backgroundColor = '#dba440';
+  } else if (classeAtual === 'metais-transicao') {
+    periodoAtual.style.backgroundColor = '#20c84a';
+  } else if (classeAtual === 'metais-pos-transicao') {
+    periodoAtual.style.backgroundColor = '#b75cea';
+  } else if (classeAtual === 'semi-metal') {
+    periodoAtual.style.backgroundColor = '#fdcf08';
+  } else if (classeAtual === 'nao-metais-poliatomicos') {
+    periodoAtual.style.backgroundColor = '#1c9900';
+  } else if (classeAtual === 'nao-metais-diatomicos') {
+    periodoAtual.style.backgroundColor = '#f27100';
+  } else if (classeAtual === 'gas-nobre') {
+    periodoAtual.style.backgroundColor = '#f255b5';
+  } else if (classeAtual === 'propriedades-quimicas-desconhecida') {
+    periodoAtual.style.backgroundColor = '#918383';
+  } else if (classeAtual === 'lantanideo'){
+    periodoAtual.style.backgroundColor = '#0060ec';
+  } else if (classeAtual === 'actinideo'){
+    periodoAtual.style.backgroundColor = '#3f98f2';
+  }
+  
+});
+
+function naoChecado() {
+  _periodos.forEach((periodoAtual) => {
+    const listaDasClasses = periodoAtual.classList
+
+    listaDasClasses.forEach((classeAtual) => {
+      if (classeAtual === 'metais'){
+        periodoAtual.style.backgroundColor = '#25f53c'
+      } else if (classeAtual === 'ametais'){
+        periodoAtual.style.backgroundColor = '#31f5ea'
+      } else if (classeAtual === 'gas-nobre1'){
+        periodoAtual.style.backgroundColor = '#ff4545e8'
+      }
+    })
+  })
+}
+  //  if(listaDasClasses.contains('ametais')){
+  //   listaDasClasses.style.backgroundColor  = '#bf8217'
+  //  }else if(listaDasClasses.contains('gas-nobre')){
+  //   listaDasClasses.style.backgroundColor  = '#e322b9'
+  //  }
+
+ 
+})}
 function mudarCor(){
   if(interruptor.checked ){
-    console.log("checado")      
+    // console.log("checado")      
+    checkClass()
   } else {
     console.log("não checado")
+    // naoChecado()
+    _periodos.forEach((periodoAtual) => {
+      const listaDasClasses = periodoAtual.classList
+  
+      listaDasClasses.forEach((classeAtual) => {
+        if (classeAtual === 'metais'){
+          periodoAtual.style.backgroundColor = '#25f53c'
+        } else if (classeAtual === 'ametais'){
+          periodoAtual.style.backgroundColor = '#31f5ea'
+        } else if (classeAtual === 'gas-nobre1'){
+          periodoAtual.style.backgroundColor = '#ff4545e8'
+        }
+      })
+    })
   }
 }
 
+
+// interruptor.addEventListener("change", (ele) => console.log(ele))
 interruptor.addEventListener("change", mudarCor)
 

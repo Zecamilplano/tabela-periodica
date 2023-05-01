@@ -148,13 +148,25 @@ img {
     text-align: center;
 }
 
-#switch-container{
+.switch-container{
     position: absolute;
     top: 12px;
     left: 621px;
     z-index: 10;
 }
 
+.switch-container{
+  position: absolute;
+  left: 515px;
+  top: 2px;
+  z-index: 10;
+}
+.switch-container1{
+  position: absolute;
+  left: 635px;
+  top: 2px;
+  z-index: 10;
+}
 .switch{
   position: absolute;
   margin: -9999px;
@@ -163,7 +175,7 @@ img {
 
 .switch + label{
   display: block;
-  position: relative;
+  position: absolute;
   cursor: pointer;
   outline: none;
   user-select: none;
@@ -284,7 +296,7 @@ p {
   background-color: #31f5ea;
 }
 
-.gas-nobre {
+.gas-nobre1 {
   background-color: #ff4545e8;
 }
 
