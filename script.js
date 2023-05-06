@@ -130,15 +130,15 @@ _periodos.forEach((periodoAtual) => {
     periodoAtual.style.backgroundColor = '#f27100';
   } else if (classeAtual === 'gas-nobre') {
     periodoAtual.style.backgroundColor = '#f255b5';
-  } else if (classeAtual === 'propriedades-quimicas-desconhecida') {
+  } else if (classeAtual === 'propriedades-quimicas-desconhecidas') {
     periodoAtual.style.backgroundColor = '#918383';
   } else if (classeAtual === 'lantanideo'){
     periodoAtual.style.backgroundColor = '#0060ec';
   } else if (classeAtual === 'actinideo'){
     periodoAtual.style.backgroundColor = '#3f98f2';
   }
-  
-});
+}); 
+})}
 
 function naoChecado() {
   _periodos.forEach((periodoAtual) => {
@@ -155,38 +155,16 @@ function naoChecado() {
     })
   })
 }
-  //  if(listaDasClasses.contains('ametais')){
-  //   listaDasClasses.style.backgroundColor  = '#bf8217'
-  //  }else if(listaDasClasses.contains('gas-nobre')){
-  //   listaDasClasses.style.backgroundColor  = '#e322b9'
-  //  }
 
- 
-})}
 function mudarCor(){
   if(interruptor.checked ){
     // console.log("checado")      
     checkClass()
   } else {
     console.log("não checado")
-    // naoChecado()
-    _periodos.forEach((periodoAtual) => {
-      const listaDasClasses = periodoAtual.classList
-  
-      listaDasClasses.forEach((classeAtual) => {
-        if (classeAtual === 'metais'){
-          periodoAtual.style.backgroundColor = '#25f53c'
-        } else if (classeAtual === 'ametais'){
-          periodoAtual.style.backgroundColor = '#31f5ea'
-        } else if (classeAtual === 'gas-nobre1'){
-          periodoAtual.style.backgroundColor = '#ff4545e8'
-        }
-      })
-    })
+    naoChecado()
   }
 }
 
-
-// interruptor.addEventListener("change", (ele) => console.log(ele))
 interruptor.addEventListener("change", mudarCor)
 
